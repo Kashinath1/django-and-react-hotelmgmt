@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc1c032f.css",
+    "main.js": "/static/js/main.f30ca595.js",
+    "static/js/787.651a1784.chunk.js": "/static/js/787.651a1784.chunk.js",
+    "static/media/hotel3.jpg": "/static/media/hotel3.3fcb276b057f1a343e83.jpg",
+    "static/media/hotel4.jpg": "/static/media/hotel4.a0f704461e1545c48544.jpg",
+    "static/media/hotel1.jpg": "/static/media/hotel1.ec9aed61a53e2078ace9.jpg",
+    "static/media/lalitpur.jpg": "/static/media/lalitpur.3352476a853e984737cf.jpg",
+    "static/media/hotel2.jpg": "/static/media/hotel2.2ee6c8ad403f0ee7b54c.jpg",
+    "static/media/nagarkot.jpg": "/static/media/nagarkot.0112b83e1a9dfabf621e.jpg",
+    "static/media/chitwan.jpg": "/static/media/chitwan.feb8051a7d08ae8e849d.jpg",
+    "static/media/hotelbg.jpg": "/static/media/hotelbg.2ff4429c052f6230008e.jpg",
+    "static/media/kathmandu.jpg": "/static/media/kathmandu.744852f5eaa4d30076a8.jpg",
+    "static/media/Butwal.jpg": "/static/media/Butwal.abf8bb164e453bb6f97c.jpg",
+    "static/media/pokhara.jpg": "/static/media/pokhara.ef639a11f7c4470aed9e.jpg",
+    "static/media/Bhaktapur.jpg": "/static/media/Bhaktapur.53a6509d070e8ddb3804.jpg",
+    "static/media/logo.jpeg": "/static/media/logo.d81f387b65558eaaa98f.jpeg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.bc1c032f.css.map": "/static/css/main.bc1c032f.css.map",
+    "main.f30ca595.js.map": "/static/js/main.f30ca595.js.map",
+    "787.651a1784.chunk.js.map": "/static/js/787.651a1784.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc1c032f.css",
+    "static/js/main.f30ca595.js"
+  ]
+}

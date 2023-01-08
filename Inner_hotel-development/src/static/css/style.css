@@ -1,0 +1,896 @@
+.form{
+    box-sizing: border-box !important;
+    width: 530px !important;
+    margin:2rem !important;
+}
+.add-hotel-txt{
+  font-family: "Roboto" !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: white !important;
+ box-sizing: border-box !important;
+ background-color: #7D0205 !important;
+ padding: 20px !important;
+ margin-top: 2rem !important;
+ margin-left: 3rem !important;
+ margin-right: 3rem !important;
+ text-align: left !important;
+ box-shadow:20px 20px 50px rgb(128, 128, 128) !important; 
+}
+.form-box {
+    margin-top: 1rem !important;
+    text-align: left !important;
+  }
+  .name {
+    font-family: "Roboto" !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    line-height: 1em !important;
+    letter-spacing: 1px !important;
+    color: #000000 !important;
+    float: left !important;
+    margin-bottom: 20px;
+    margin-left: 1rem !important;
+  }
+  .detail-name-box {
+    background-color: #f9f9f9 !important;
+    border-width: 1px !important;
+    border-color: #bfbebe !important;
+    border-style: solid !important;
+    margin-bottom: 5px !important;
+    width: 95% !important;
+    font-family: "Roboto", sans-serif;
+    color: rgb(0 0 0) !important;
+    font-size: 10px !important;
+    font-weight: normal !important;
+    height: 40px;
+    border-radius: 5px !important;
+    margin-left: 1rem !important;
+  }
+  .submit {
+    margin-top: 1.2rem !important;
+    font-family: "Roboto" !important;
+    font-size: 10px !important;
+    font-weight: normal !important;
+    line-height: 1em !important;
+    letter-spacing: 1px !important;
+    box-sizing: border-box !important;
+    background-color: #7D0205 !important;
+    color: white !important;
+    cursor: pointer !important;
+    padding: 12px 35px 12px 35px !important;
+    font-weight: 600 !important;
+  }
+
+  /* sub_header css */
+    .header-box {
+      padding-top: 10px !important;
+      padding-bottom: 20px !important;
+      background-color: white !important;
+      width: 100% !important;
+    }
+    .subheader-list {
+      padding: 0px !important;
+      text-align: left !important;
+    }
+    .subheader-listitem{
+      padding: 0px !important;
+      width: auto !important;
+      display: inline !important;
+      font-family: "Source Sans Pro", serif !important;
+      font-size: 14px !important;
+      cursor: pointer !important;
+    }
+    .info {
+      padding-left: 25px !important;
+    }
+    .myaccount-text {
+      padding-left: 4px !important;
+      font-family: "Source Sans Pro", serif !important;
+      font-size: 14px !important;
+      text-align: right !important;
+      margin-top:20px !important;
+    }
+    .user-icon {
+      padding-right: 10px !important;
+      font-size: 20px !important;
+      color:rgb(245, 110, 13) !important;
+      font-family: "Source Sans Pro", serif !important;
+    }
+    .subheader-link {
+      text-decoration: none !important;
+      color: rgb(227, 226, 226) !important;
+      cursor: pointer !important;
+    }
+  /* main-header */
+.my-main-header {
+  height: 80px !important;
+  background-color: #7D0205 !important;
+  width: 100% !important;
+  position: sticky !important;
+}
+.hotel-logo {
+  width: 100% !important;
+  padding-left: 14px !important;
+  padding-top: 0px !important;
+  height: 5rem !important;
+}
+.company-name{
+  padding-left: 20px !important;
+  padding-top: 20px !important;
+  font-family: "Roboto" !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: rgb(249, 149, 35) !important;
+
+}
+.main-header-ul {
+  text-align: left !important;
+  padding-left: 14rem !important;
+  margin-top: 8px !important;
+  width: 100% !important;
+}
+.main-header-display {
+  display: inline !important;
+}
+.main-header-text {
+  text-decoration: none !important;
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: #d8d6d6 !important;
+}
+.main-header-text:hover {
+  color: white !important;
+  transition: 0.2s ease !important;
+  cursor: pointer !important ;
+}
+.booking {
+  text-align: right !important;
+  padding-left: 7px !important;
+  padding-top: 18px !important;
+}
+.book-btn {
+  color: rgb(151, 150, 150) !important;
+  background-color: white !important;
+  border-radius: 0px 0px 0px 0px !important;
+  font-family: "Roboto" !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: #a3a3a3 !important;
+}
+.book-link {
+  text-decoration: none !important;
+  color: #a3a3a3 !important ;
+}
+/* footer css */
+.footer-background {
+  background-color: #7D0205 !important;
+}
+.footer-padding {
+  padding: 8px !important;
+}
+.heading {
+  color: #ffffff !important;
+  font-family: "Gilda Display" !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  line-height: 1.8em !important;
+  letter-spacing: 2px !important;
+  padding-top: 2rem !important;
+}
+.availability {
+  color: #c2c0c0 !important;
+  font-family: "Roboto" !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  line-height: 2em !important;
+  letter-spacing: 2px !important;
+  padding-bottom: 10px !important;
+}
+.phone-number {
+  color: #ffffff !important;
+  font-family: "Roboto" !important;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  padding-bottom: 10px !important;
+}
+.social-media-margin {
+  padding: 10px !important;
+  text-decoration: none !important;
+}
+.icons-design {
+  color: #ffffff !important;
+  font-size: 20px !important;
+  font-weight: 300 !important;
+}
+.copyright-margin {
+  padding: 1.5rem !important;
+}
+.copyright {
+  color: #c2c0c0 !important;
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+}
+/* Home page Css */
+.myhotelbg-image{
+  height: 550px !important;
+  width: 100% !important;
+}
+ .about-img{
+  height: 300px !important;
+ }
+
+.cities{
+  height: 250px !important;
+  width: 100% !important;
+}
+.cities-box{
+  margin: 3rem !important;
+}
+.cities-txt{
+  color: black !important;
+  font-family: "Roboto" !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+}
+.city-container{
+  margin: 4rem !important;
+}
+.background-img{
+  position: relative !important;
+  text-align: center !important;
+}
+.search-box{
+  position: absolute !important;
+  bottom: 13rem !important;
+  left: 24rem !important;
+}
+.search-input{
+  height: 60px !important;
+  width: 200px !important;
+  padding: 10px  !important;
+  border: 1px solid white !important;
+}
+.search-button{
+  position: absolute !important;
+  background-color: #7D0205 !important;
+  padding: 23px 30px  !important;
+  color: #c2c0c0 !important;
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+ 
+}
+.select-option{
+  height: 60px !important;
+  width: 180px !important;
+  border-color: 1px solid white !important;
+}
+.card-bg{
+  background-color: #7D0205 !important;
+  margin: 1rem !important;
+}
+.card-bg-hotel{
+  background-color: #7D0205 !important;
+}
+.photo-city-txt{
+  color: #c2c0c0 !important;
+  font-family: "Roboto" !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  padding: 10px !important;
+}
+.MuiButton-root {
+  border-radius: 0px!important;
+}
+.check-availability-box {
+  position: absolute !important;
+  bottom: 0rem !important;
+  left: 11rem !important;
+  box-sizing: border-box !important;
+  background-color: white !important;
+  width: 70% !important;
+}
+.check-in-box {
+  box-sizing: border-box !important;
+  width: 20% !important;
+  display: block !important;
+  float: left !important;
+}
+.check-out-box {
+  box-sizing: border-box !important;
+  width: 20% !important;
+  display: block !important;
+  float: left !important;
+}
+.guest-box {
+  box-sizing: border-box !important;
+  width: 20% !important;
+  display: block !important;
+  float: left !important;
+}
+.room-type-box {
+  box-sizing: border-box !important;
+  width: 20% !important;
+  display: block !important;
+  float: left !important;
+}
+.available-btn-box {
+  box-sizing: border-box !important;
+  width: 20% !important;
+  display: block !important;
+  float: right !important;
+  box-sizing: border-box !important;
+  background-color: #7D0205 !important;
+}
+.check-box {
+  font-family: "Roboto", sans-serif;
+  color: #5c5c5c;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 12px !important;
+  letter-spacing: 2px !important;
+  padding-top: 20px !important;
+  padding-bottom: 5px !important;
+  float: left !important;
+  width: 80% !important;
+  box-sizing: border-box !important;
+  margin: 10px !important;
+}
+
+.input-box {
+  background-color: #f9f9f9 !important;
+  border-width: 1px !important;
+  border-color: rgb(248, 245, 245) !important;
+  border-radius: 0px !important;
+  border-style: solid !important;
+  padding: 15px 10px !important;
+  color: gray !important;
+  float: left !important;
+  width: 50% !important;
+  margin-left: 2.7rem !important;
+  text-align: center !important;
+}
+
+.availablity-btn {
+  padding: 40px !important;
+  color: white !important;
+}
+/* about us page css */
+.about-bg{
+  position: relative !important;
+}
+.about-us-position{
+  position: absolute !important;
+  bottom: 8rem !important;
+  left: 31rem !important;
+}
+.about-us-txt{
+  color: #7D0205 !important;
+  font-family: "Roboto" !important;
+  font-size: 50px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+}
+.welcome-margin{
+  margin-top: 3rem !important;
+  margin-bottom: 2rem !important;
+}
+.welcome-txt{
+  color: black !important;
+  font-family: "Roboto" !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  z-index: 10rem !important;
+}
+.about-us-div{
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+}
+.about-us-p{
+  color: black !important;
+  font-family: "Roboto" !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1em !important;
+  letter-spacing: 0px !important;
+  z-index: 10rem !important;
+  text-align: justify !important;
+  margin-bottom: 1.5rem !important;
+}
+.about-us-p-br{
+  color: black !important;
+  font-family: "Roboto" !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1em !important;
+  letter-spacing: 0px !important;
+  z-index: 10rem !important;
+  text-align: justify !important;
+  margin-bottom: 4rem !important;
+}
+.htl{
+  left: 28rem !important;
+  
+}
+
+/* user register page */
+.register-box{
+  margin-top: 3rem !important;
+}
+.register-txt-typo{
+  color: black !important;
+  font-family: "Roboto" !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 0px !important;
+  z-index: 10rem !important;
+  text-align: justify !important;
+  text-transform: capitalize !important;
+}
+.register-form-box{
+  width: 500px !important;
+  box-sizing: border-box !important;
+  border: 1px solid black;
+  margin-bottom: 2rem !important;
+  margin-top: 2rem !important;
+}
+.register-form {
+  margin-top: 1rem !important;
+  text-align: left !important;
+  position: relative !important;
+}
+.label-name {
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: #4a4949 !important;
+  padding: 10px !important;
+  float: left !important;
+  width: 90% !important;
+  margin-bottom: 5px !important;
+}
+.register-name-box {
+  background-color: #f9f9f9 !important;
+  border-width: 1px !important;
+  border-color: black !important;
+  border-radius: 0px !important;
+  border-style: solid !important;
+  margin-left: 10px !important;
+  padding: 10px !important;
+  color: #878787 !important;
+  float: left !important;
+  width: 90% !important;
+}
+.submit-button {
+  box-sizing: border-box !important;
+  background-color: #7D0205 !important;
+  margin-top: 2rem !important;
+  color: white !important;
+  font-family: "Roboto", sans-serif !important;
+  padding: 12px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  width: 50% !important;
+  margin-bottom: 1rem !important;
+}
+.sign-in {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+.sign-in-info {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: black !important;
+  text-align: left !important;
+}
+.sign-in-link {
+  text-decoration: none !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: black !important;
+}
+.sign-in-link:hover {
+  text-decoration: underline !important;
+  transition: 0.3s ease !important;
+}
+.error-message{
+  font-size: 10px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: red !important;
+  text-align: left !important;
+  padding: 10px !important;
+}
+.invalid{
+  font-size: 12px !important;
+  color: red !important;
+  font-family: "Roboto", sans-serif !important;
+  float: left !important;
+  padding: 8px !important;
+  margin: 2px !important;
+}
+/* login css */
+.login{
+  width: 500px !important;
+  box-sizing: border-box !important;
+ border-color: #eae7e7 !important;
+  margin-bottom: 2rem !important;
+  margin-top: 2rem !important;
+  height: 260px !important;
+}
+.login-form-box {
+  margin-top: 1rem !important;
+  text-align: left !important;
+}
+.login-name {
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: #4a4949 !important;
+  padding: 10px !important;
+  float: left !important;
+  width: 85% !important;
+}
+.login-name-box {
+  background-color: #f9f9f9 !important;
+  border-width: 1px !important;
+  border-color: black !important;
+  border-radius: 0px !important;
+  border-style: solid !important;
+  margin-left: 10px !important;
+  margin-bottom: 5px !important;
+  padding: 10px 20px !important;
+  color: #878787 !important;
+  float: left !important;
+  width: 85% !important;
+}
+.login-button {
+  float: left !important;
+  margin-top: 5px !important;
+}
+.login-submit-btn {
+  margin: 1rem !important;
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  box-sizing: border-box !important;
+  background-color: #7D0205 !important;
+  color: white !important;
+  cursor: pointer !important;
+  padding: 12px 35px 12px 35px;
+  font-weight: 600;
+  text-align: center !important;
+  width: 50% !important;
+  margin-left: 11rem !important;
+  margin-top: 3rem !important;
+}
+
+.dashboard-header-color {
+  background-color: rgb(245, 214, 176) !important;
+  padding: 1rem !important;
+  box-shadow: 0 2px 4px #dedede!important;
+  z-index: 2 !important;
+}
+.sidebar-list {
+  width: 240px !important;
+  height: 100% !important;
+  background-color: #7D0205 !important;
+  position: fixed !important;
+  text-align: center !important;
+  /* overflow-y: scroll !important; */
+}
+.sidebar-list::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: black !important;
+  position: fixed !important;
+}
+.sidebar-list::-webkit-scrollbar {
+  width: 8px;
+}
+.sidebar-list::-webkit-scrollbar-button {
+  height: 10px !important;
+}
+.sidebar-list::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #565555 !important;
+  border: #030303 !important;
+}
+.sidebar-list::-webkit-scrollbar-thumb:hover {
+  background-color: #797979 !important;
+  transition: 0.5s all ease !important;
+  cursor: pointer !important;
+}
+.sidebar-list {
+  -webkit-overflow-scrolling: touch !important;
+}
+.logo-dash {
+  width: 140px !important;
+  height: 50px !important;
+}
+.listitem {
+  display: block !important;
+  text-align: left !important;
+  padding-left: 2rem !important;
+}
+.dasboard {
+  margin-top: 1rem !important;
+}
+.link {
+  text-decoration: none !important;
+  color: white !important;
+  cursor: pointer !important;
+  font-family: "Open Sans" !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 1.8em !important;
+  letter-spacing: 1px !important;
+}
+.link:hover {
+  color: #a3a3a3 !important;
+  transition: 0.5s ease !important;
+  cursor: pointer !important;
+}
+.dropdown-link {
+  text-decoration: none !important;
+  color: white !important;
+  display: block !important;
+  font-family: "Roboto" !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  text-align: left !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  margin-top: 5px !important;
+}
+.dropdown-link:hover {
+  color: #a3a3a3 !important;
+  cursor: pointer !important ;
+}
+.dropdown-wrap {
+  position: relative !important;
+}
+.dropdown-class {
+  display: block !important;
+  position: static !important;
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  left: 0 !important;
+  top: 100% !important;
+  z-index: 1 !important;
+}
+.list-dropdown {
+  margin-bottom: 4px !important;
+}
+
+.list-dropdown:hover {
+  background-color: rgb(209, 155, 28) !important;
+  box-sizing: border-box !important;
+}
+.dropdown-list {
+  text-align: left !important;
+}
+.dropdown-list:hover {
+  background-color: rgb(255, 226, 8) !important;
+  width: 100% !important;
+}
+.sidebar-chevondown {
+  font-size: 10px !important;
+  font-family: "Roboto" !important;
+  padding-left: 1rem !important;
+}
+.sidebar-icon {
+  padding-right: 14px !important;
+}
+.appbar-txt {
+  font-size: 17px !important;
+  font-family: "Source Sans Pro", serif !important;
+  font-weight: 600 !important;
+  padding-left: 2rem !important;
+  text-align: start !important;
+}
+.paper-card{
+  margin: 2rem !important;
+  height: 310px !important;
+}
+.margin-of-grid{
+  margin: 2rem !important;
+}
+.typo-search-hotel{
+  font-size: 15px !important;
+  font-family: "Source Sans Pro", serif !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+}
+.hotel-img-card{
+  width: 400px !important;
+  height: 300px!important;
+  float: left !important;
+}
+.hotel-img-pic{
+  width: 400px !important;
+  height: 300px!important;
+}
+.hotel-txt-typo-grid{
+  margin: 2rem !important;
+}
+.typo-hotel-txt{
+  font-size: 18px !important;
+  font-family: "Source Sans Pro", serif !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  text-transform: capitalize !important;
+}
+.typo-hotel-txt-second{
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  padding: 10px !important;
+}
+.txt-box-search{
+  background-color: #7D0205 !important;
+}
+.contact-box{
+  margin: 4rem !important;
+}
+.con-sub{
+  margin-left: 10rem !important;
+}
+.contact-info{
+  margin: 2rem !important;
+}
+.typo-contact{
+  font-family: "Roboto" !important;
+  font-size: 24px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+}
+.ready{
+  font-family: "Sans Serif" !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 1rem !important;
+  color: #000000 !important;
+}
+.merostay{
+  font-family: "Roboto" !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 6px !important;
+  color: #000000 !important;
+}
+.chabil{
+  font-family: "Sans Serif" !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 1rem !important;
+  color: #000000 !important;
+}
+.gmail-merostay{
+  font-family: "Sans Serif" !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 1rem !important;
+  color: #000000 !important;
+}
+.front-desk{
+  font-family: "Sans Serif" !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 1rem !important;
+  color: #000000 !important;
+}
+.time{
+  font-family: "Sans Serif" !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 1rem !important;
+  color: #000000 !important;
+}
+.submit-modal{
+  box-sizing: border-box !important;
+  width: 430px !important;
+  height: 180px !important;
+}
+.submit-query{
+  font-family: "Sans Serif" !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 1rem !important;
+  margin-top: 2rem !important
+}
+.lauch-modal{
+  font-family: "Sans Serif" !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  margin-top: 2rem !important;
+  margin-left: 5rem !important;
+}
+.submit-modal-bttn{
+margin-top: 3rem !important;
+margin-left: 12rem !important;
+}
+.close-modal{
+   background-color: #7D0205 !important;
+   color: #5c5c5c !important;
+   font-family: "Sans Serif" !important;
+   font-size: 18px !important;
+   font-weight: bold !important;
+   line-height: 1em !important;
+   letter-spacing: 1px !important;
+   padding: 10px 20px  !important;
+   cursor: pointer !important;
+}
+/* .slick-arrow{
+  color: #000000 !important;
+}
+.slick-next{
+  color: #000000 !important;
+}
+.slick-prev{
+  color: #000000 !important;
+} */
